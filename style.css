@@ -499,3 +499,21 @@ input::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-c
     width: 24px;
     height: 24px;
 }
+
+/* FOOTER SECTION STYLE CODE'S */
+
+footer {
+    height: 181px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+footer .brands{
+    width: 85px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    padding: auto 240px;
+}
