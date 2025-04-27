@@ -10,6 +10,7 @@
     background-color: #F2F1F0;
 }
 /* TOP SECTION STYLE CODE'S */
+/* TOP SECTION STYLE CODE'S */
 
 .top-sec .social{
     height: 60px;
@@ -82,6 +83,9 @@
     opacity: 50%;
     border-radius: 1px;
 }
+
+/* NAVBAR STYLE CODE'S */
+
 
 /* NAVBAR STYLE CODE'S */
 
@@ -183,6 +187,9 @@
 
 /* MIDDLE SECTION STYLE CODE'S */
 
+
+/* MIDDLE SECTION STYLE CODE'S */
+
 .mid-sec{
     width: 85%;
     height: 600px;
@@ -190,7 +197,11 @@
     margin-top: 100px;
     position: relative;
     display: flex;
+    position: relative;
+    display: flex;
 }   
+
+/* MIDDLE SECTION LEFT-SIDE STYLE CODE'S */
 
 /* MIDDLE SECTION LEFT-SIDE STYLE CODE'S */
 
