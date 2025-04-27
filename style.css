@@ -9,6 +9,7 @@
     margin: auto; 
     background-color: #F2F1F0;
 }
+/* TOP SECTION STYLE CODE'S */
 
 .top-sec .social{
     height: 60px;
@@ -81,6 +82,9 @@
     opacity: 50%;
     border-radius: 1px;
 }
+
+/* NAVBAR STYLE CODE'S */
+
 .top-sec .navbar{
     width: 85%;
     height: 60px;
@@ -176,11 +180,19 @@
     font-weight: 400;
     line-height: 40px; 
 }
+
+/* MIDDLE SECTION STYLE CODE'S */
+
 .mid-sec{
     width: 85%;
+    height: 600px;
     margin: auto;
     margin-top: 100px;
+    position: relative;
+    display: flex;
 }   
+
+/* MIDDLE SECTION LEFT-SIDE STYLE CODE'S */
 
 .mid-sec .left-sec{
     width: 785px;
@@ -251,4 +263,228 @@ justify-content: center;
     height: 24px;
     
 }
-.mid-sec .left-sec .btn
+
+/* MIDDLE SECTION RIGHT-SIDE STYLE CODE'S */
+
+.mid-sec .right-sec{
+    width: 890px;
+    height: 559px;
+    position: relative;
+    display: flex;
+    right: 0;
+}
+
+.mid-sec .right-sec img{
+    position: absolute;
+}
+
+.mid-sec .right-sec img#l-rec{
+    width: 800px;
+    height: 539px;
+    position: absolute;
+    right: 0;
+
+}
+.mid-sec .right-sec img#s-rec{
+    width: 192px;
+    height: 470px;
+    position: absolute;
+    right: 85px;
+    bottom: 0;
+
+}
+.mid-sec .right-sec img#car{
+    width: 890px;
+    height: 559px;
+    position: absolute;
+    right: -10px;
+    top: 30px;
+}
+
+/* MIDDLE SECTION HOVERING-PART STYLE CODE'S */
+
+.mid-sec .hovering-sec{
+    position: absolute;
+    width: 1260px;
+    height: 131px;
+    background-color: #FFFFFF;
+    border-radius: 96px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 62px;
+    bottom: 0;
+    box-shadow: 20px 0 50px rgba(0, 0, 0, 0.053);
+}
+.mid-sec .hovering-sec .location,.car-t,.pickup,.return{
+    height: 62px;
+    
+}
+
+.mid-sec .hovering-sec .bar{
+    width: 1px;
+    height: 60px;
+    border-right: 1px solid #909090;
+}
+
+.mid-sec .hovering-sec .search button{
+    width: 160px;
+    height: 60px;
+    background-color: #6ED4D4;
+    border-radius: 96px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    border: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.mid-sec .hovering-sec label{
+    color: #909090;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    align-items: baseline;
+}
+.mid-sec .hovering-sec select{
+    align-items: end;
+    margin-left: 3px;
+    position: relative;
+    display: inline-block;
+    left: -10px;
+    bottom: -5px;
+    padding-left: 10px;
+}
+
+.mid-sec .hovering-sec .location select{
+    width: 202px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(img/chevron-down.svg) ;
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+.mid-sec .hovering-sec .location img{
+    position: relative;
+    bottom: -9.5px;
+    width: 24px;
+    height: 24px;
+}
+.mid-sec .hovering-sec .car-t select{
+    width: 175px;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(img/chevron-down.svg) ;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.mid-sec .hovering-sec .car-t img{
+    position: relative;
+    bottom: -10px;
+    width: 24px;
+    height: 24px;
+}
+.mid-sec .hovering-sec select:focus{
+    border: none;
+    outline: none;
+}
+.mid-sec .hovering-sec option{
+    display: flex;
+    position: absolute;
+    
+}
+
+
+input[type='date']::-webkit-calendar-picker-indicator {
+    background: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+input::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-clear-button {
+    display: none;
+}
+.pickup input:before {
+    position: absolute;
+    top: -2px; left: 3px;
+    content: attr(data-date);
+    display: flex;
+    color: black;
+}
+
+.return input:before {
+     position: relative;
+     top: 3px; left: 3px;
+     content: attr(data-date);
+     display: inline-block;
+     color: black;
+ }
+.mid-sec .hovering-sec .pickup input{
+    width: 162px;
+    height: 24px;
+    position: relative;
+    bottom: -9px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(img/chevron-down.svg) ;
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+.mid-sec .hovering-sec .pickup img{
+    position: relative;
+    bottom: -7px;
+    width: 24px;
+    height: 24px;
+}
+.mid-sec .hovering-sec .return input[type="date"]{
+    width: 162px;
+    height: 24px;
+    position: relative;
+    bottom: 0px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(img/chevron-down.svg) ;
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+.mid-sec .hovering-sec .return img{
+    position: relative;
+    bottom: -7px;
+    width: 24px;
+    height: 24px;
+}
