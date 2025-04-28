@@ -218,6 +218,7 @@
     display: flex; position: relative;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 1;
 }
 .mid-sec .left-sec p.heading{
     font-family: "Bebas Neue", sans-serif;
@@ -289,7 +290,8 @@ justify-content: center;
     height: 559px;
     position: relative;
     display: flex;
-    right: 0;
+    right: 0%;
+    position: absolute;
 }
 
 .mid-sec .right-sec img{
@@ -323,7 +325,7 @@ justify-content: center;
 
 .mid-sec .hovering-sec{
     position: absolute;
-    width: 80%;
+    width: 71%;
     height: 131px;
     background-color: #FFFFFF;
     border-radius: 96px;
@@ -524,7 +526,8 @@ footer .brands{
     height: 54px;
     display: flex;
     justify-content: space-between;
-    margin: auto 230px;
+    margin: auto 380px;
+    opacity: 48%;
     
     
 }
