@@ -506,3 +506,33 @@ input::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-c
     width: 24px;
     height: 24px;
 }
+
+/* FOOTER SECTION STYLE CODE'S */
+
+footer {
+    height: 181px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    bottom: -65px;
+
+}
+footer .brands{
+    width: 85%;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 230px;
+    
+    
+}
+footer .brands a{
+
+    height: 54px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
