@@ -508,12 +508,24 @@ footer {
     position: relative;
     display: flex;
     align-items: center;
+    background-color: #ffffff;
+    bottom: -65px;
 
 }
 footer .brands{
-    width: 85px;
+    width: 85%;
     height: 54px;
     display: flex;
     justify-content: space-between;
-    padding: auto 240px;
+    margin: auto 230px;
+    
+    
+}
+footer .brands a{
+
+    height: 54px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
